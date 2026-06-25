@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004841",
-  "source": "openneuro",
-  "source_id": "ds004841",
+  "pipeline_stage": "validated",
   "title": "TX14",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Gabriella Larkin": {},
     "James A. Davis": {},
@@ -16,21 +16,69 @@
     "Stephen Gordon": {},
     "Kevin King": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004841.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004841",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004841",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv"
+  ],
+  "description": "The TX14 dataset comprises EEG recordings collected during a local situational awareness task performed while maintaining supervisory control of a semi-autonomous vehicle. This dataset investigates the cognitive and attentional demands of human-machine interaction in military contexts, specifically examining the trade-offs between monitoring local area awareness and vehicle control during semi-autonomous operations. The data supports research into dynamic task allocation and human factors in supervisory control systems.",
+  "keywords": [
+    {
+      "term": "situational awareness"
+    },
+    {
+      "term": "semi-autonomous vehicles"
+    },
+    {
+      "term": "supervisory control"
+    },
+    {
+      "term": "human-machine interaction"
+    },
+    {
+      "term": "cognitive workload"
+    },
+    {
+      "term": "task allocation"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "autonomous vehicles"
+    },
+    {
+      "term": "military robotics"
+    }
+  ],
+  "source_hash": "080112383e6b3ce06c5e212050d09e53ee2f525f774b85eb638fee96ef5da6a5"
 }
