@@ -1,0 +1,36 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004841",
+  "source": "openneuro",
+  "source_id": "ds004841",
+  "title": "TX14",
+  "authors": {
+    "Gabriella Larkin": {},
+    "James A. Davis": {},
+    "Victor Paul": {},
+    "Marcel Cannon": {},
+    "Chris Manteuffel": {},
+    "Ben Brewster": {},
+    "Tony Johnson": {},
+    "Mike Dunkel": {},
+    "Stephen Gordon": {},
+    "Kevin King": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004841.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ]
+}
