@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "TX14",
-  "description": "The TX14 dataset comprises neuroimaging recordings collected during a local situational awareness task performed concurrently with supervisory control of a semi-autonomous vehicle. This dataset investigates the cognitive and neural correlates of human-machine interaction in military contexts, specifically examining the trade-offs between maintaining situational awareness and vehicle control during autonomous system supervision.",
+  "description": "The TX14 dataset comprises neuroimaging recordings collected during a local situational awareness task performed concurrently with supervisory control of a semi-autonomous vehicle. This dataset investigates the cognitive and neural correlates of human-machine interaction in military contexts, specifically examining the trade-offs between maintaining situational awareness and vehicle control during semi-autonomous operations. The data supports research into dynamic task allocation and human factors in autonomous systems.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,22 +19,22 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
-      "term": "human-machine interaction"
-    },
-    {
       "term": "situational awareness"
     },
     {
-      "term": "autonomous vehicles"
+      "term": "semi-autonomous vehicles"
     },
     {
       "term": "supervisory control"
     },
     {
+      "term": "human-machine interaction"
+    },
+    {
       "term": "cognitive workload"
+    },
+    {
+      "term": "neuroimaging"
     }
   ],
   "related_identifiers": [
