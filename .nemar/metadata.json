@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "TX14",
+  "description": "The TX14 dataset comprises neuroimaging recordings collected during a local situational awareness task performed concurrently with supervisory control of a semi-autonomous vehicle. This dataset investigates the cognitive and neural correlates of human-machine interaction in military contexts, specifically examining the trade-offs between maintaining situational awareness and vehicle control during autonomous system supervision.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,12 +17,27 @@
     "Stephen Gordon": {},
     "Kevin King": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004841.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "human-machine interaction"
+    },
+    {
+      "term": "situational awareness"
+    },
+    {
+      "term": "autonomous vehicles"
+    },
+    {
+      "term": "supervisory control"
+    },
+    {
+      "term": "cognitive workload"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004841",
       "identifier_type": "URL",
@@ -31,54 +47,27 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004841",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004841.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "7.8 GB (295 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "The TX14 dataset comprises EEG recordings collected during a local situational awareness task performed while maintaining supervisory control of a semi-autonomous vehicle. This dataset investigates the cognitive and attentional demands of human-machine interaction in military contexts, specifically examining the trade-offs between monitoring local area awareness and vehicle control during semi-autonomous operations. The data supports research into dynamic task allocation and human factors in supervisory control systems.",
-  "keywords": [
-    {
-      "term": "situational awareness"
-    },
-    {
-      "term": "semi-autonomous vehicles"
-    },
-    {
-      "term": "supervisory control"
-    },
-    {
-      "term": "human-machine interaction"
-    },
-    {
-      "term": "cognitive workload"
-    },
-    {
-      "term": "task allocation"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "autonomous vehicles"
-    },
-    {
-      "term": "military robotics"
-    }
-  ],
-  "source_hash": "080112383e6b3ce06c5e212050d09e53ee2f525f774b85eb638fee96ef5da6a5"
+  "source_hash": "c59072b67ed1bbc214a921047b360ad11274d7bdf2ed528ee739110cbd5b333a"
 }
