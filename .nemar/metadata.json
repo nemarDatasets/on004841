@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "TX14",
-  "description": "The TX14 dataset comprises neuroimaging recordings collected during a local situational awareness task performed concurrently with supervisory control of a semi-autonomous vehicle. This dataset investigates the cognitive and neural correlates of human-machine interaction in military contexts, examining the trade-offs between maintaining situational awareness and vehicle control during autonomous system operation.",
+  "description": "TX14 is an EEG dataset collected while participants performed a local situational awareness task and simultaneously maintained supervisory control of a semi-autonomous vehicle. It addresses the shift of the soldier's role from active controller to system monitor and manager in autonomous military systems. The dataset supports study of trade-offs between local area awareness (target/threat detection) and vehicle control, informing dynamic task allocation in crewstations.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,19 +22,19 @@
       "term": "EEG"
     },
     {
-      "term": "human-machine interaction"
-    },
-    {
       "term": "situational awareness"
-    },
-    {
-      "term": "autonomous vehicles"
     },
     {
       "term": "supervisory control"
     },
     {
-      "term": "cognitive workload"
+      "term": "semi-autonomous vehicle"
+    },
+    {
+      "term": "human-automation interaction"
+    },
+    {
+      "term": "task allocation"
     }
   ],
   "related_identifiers": [
@@ -44,14 +44,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004841",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004841.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004841",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -59,7 +59,7 @@
     "eeg"
   ],
   "sizes": [
-    "7.8 GB (295 files)"
+    "7.31 GB (295 files)"
   ],
   "formats": [
     ".fdt",
